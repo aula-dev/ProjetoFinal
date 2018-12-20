@@ -5,6 +5,7 @@
  */
 package com.fieb.senai.entidades;
 
+import com.fieb.senai.enums.Sexo;
 import java.util.Objects;
 
 /**
@@ -16,7 +17,10 @@ public class Cliente {
     private String nome;
     private Integer id;
     private Integer idade;
+    
     private Sexo sexo;
+    
+    private Telefone telefone;
 
     public String getNome() {
         return nome;
