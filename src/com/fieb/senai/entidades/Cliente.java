@@ -6,7 +6,9 @@
 package com.fieb.senai.entidades;
 
 import com.fieb.senai.enums.Sexo;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 /**
  *
@@ -20,8 +22,9 @@ public class Cliente {
     
     private Sexo sexo;
     
-    private Telefone telefone;
+    private Set<String> telefones = new HashSet<>();
 
+    
     public String getNome() {
         return nome;
     }
