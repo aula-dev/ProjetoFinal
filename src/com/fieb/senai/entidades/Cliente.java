@@ -22,9 +22,11 @@ public class Cliente {
     
     private Sexo sexo;
     
+    // Faltou métodos acessores para o atributo telefones.
     private Set<String> telefones = new HashSet<>();
 
-    
+    // Faltou atributo para referência ao relacionamento entre as classes Cliente e Endereco.
+           
     public String getNome() {
         return nome;
     }
