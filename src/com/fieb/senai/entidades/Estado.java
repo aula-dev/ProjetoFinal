@@ -16,6 +16,7 @@ public class Estado {
     private Integer id;
     private String nome;
     
+    // Segundo o diagrama de classes este atributo deve ser implementado como uma coleção para permitir adicionar várias cidades.
     private Cidade cidade;
 
     public Integer getId() {
